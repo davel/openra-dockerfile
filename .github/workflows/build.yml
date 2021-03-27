@@ -35,5 +35,5 @@ jobs:
           push: true
           tags: ghcr.io/davel/openra:latest
           labels: |
-            'org.opencontainers.image.source="https://github.com/${{ github.repository }}"'
-            'org.opencontainers.image.revision=${{ github.sha }}'
+            org.opencontainers.image.source="https://github.com/${{ github.repository }}"
+            org.opencontainers.image.revision=${{ github.sha }}
